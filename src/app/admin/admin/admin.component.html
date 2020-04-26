@@ -1,0 +1,68 @@
+   <head>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <title>Prima Energy</title>
+  </head>
+  
+  <body id="home" class="scrollspy">
+  
+    <div class="navbar-fixed">
+      <nav class="white">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo grey-text"><img src="assets/Images//logo2.png"> Rregullime</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons grey-text">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li >
+                <a class="black-text" routerLinkActive="active" routerLink="projekte" >Projektet</a>
+              </li>
+              <li>
+                <a href="#projects" class="black-text">Projekt i Ri</a>
+              </li>
+              <li>
+                <a href="#projekte" class="black-text">Shqip</a>
+              </li>
+              <li>
+                <a href="#partneret" class="black-text">Anglisht</a>
+              </li>            
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>  
+
+    <ul class="sidenav" id="mobile-nav">
+      <li>
+        <a routerLink="projekte">Projektet</a>
+      </li>
+      <li>
+        <a routerLink="projekte">Projekt i Ri</a>
+      </li>
+      <li>
+        <a href="#partneret">Rregullime Shqip</a>
+      </li>
+      <li>
+        <a href="#journal">Rregullime Anglisht</a>
+      </li>    
+    </ul>
+  
+  <div>
+
+    <router-outlet></router-outlet>
+  </div>
+
+  </body>
+   
+  
+
